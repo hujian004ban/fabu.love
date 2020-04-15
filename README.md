@@ -187,3 +187,7 @@ server{
 }
 ```
 
+
+注意：
+1、server出现Error: spawn EACCES时  给目录添加权限 sudo chmod -R a+rw server
+2、nginx的upload路径不对，root /home/ubuntu/fabulove/upload; 改成 root /home/ubuntu/fabulove/;正常
